@@ -1,0 +1,15 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Credentials and local monitoring data
+.env
+.env.*
+!.env.example
+*state*.json
+*.log
+
+# macOS files
+.DS_Store
